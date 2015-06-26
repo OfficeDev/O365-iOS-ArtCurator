@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9608E4FF1B0577F700E3F54B /* ImagesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9608E4FE1B0577F700E3F54B /* ImagesManager.m */; };
+		9616B1531B0D0631000C640B /* SettingsSearchFolderTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9616B1521B0D0631000C640B /* SettingsSearchFolderTableViewController.m */; };
+		9654FDAE1B17E25A00DA4D9C /* astronaut.png in Resources */ = {isa = PBXBuildFile; fileRef = 9654FDAD1B17E25A00DA4D9C /* astronaut.png */; };
+		9654FDB11B17E26700DA4D9C /* cyborg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9654FDAF1B17E26700DA4D9C /* cyborg.png */; };
+		9654FDB21B17E26700DA4D9C /* robot.png in Resources */ = {isa = PBXBuildFile; fileRef = 9654FDB01B17E26700DA4D9C /* robot.png */; };
+		9698FFF81B0BFF7700118346 /* SettingsResponseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9698FFF71B0BFF7700118346 /* SettingsResponseTableViewController.m */; };
+		96B1343C1B02929C00B1602A /* Office365Client.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B1343B1B02929C00B1602A /* Office365Client.m */; };
+		96D93B771B0662950061906D /* MessageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D93B761B0662950061906D /* MessageContainer.m */; };
+		96DF4F3D1B0A5F42000345FE /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DF4F3C1B0A5F42000345FE /* DetailViewController.m */; };
+		96DF4F401B0ABBDA000345FE /* SettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DF4F3F1B0ABBDA000345FE /* SettingsManager.m */; };
+		96DF4F461B0AC408000345FE /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96DF4F451B0AC408000345FE /* SettingsTableViewController.m */; };
+		96F30E591B016C06002E792C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F30E581B016C06002E792C /* main.m */; };
+		96F30E5C1B016C06002E792C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F30E5B1B016C06002E792C /* AppDelegate.m */; };
+		96F30E621B016C06002E792C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F30E601B016C06002E792C /* Main.storyboard */; };
+		96F30E641B016C06002E792C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F30E631B016C06002E792C /* Images.xcassets */; };
+		96F30E671B016C06002E792C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96F30E651B016C06002E792C /* LaunchScreen.xib */; };
+		96F30E731B016C06002E792C /* Art_CuratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F30E721B016C06002E792C /* Art_CuratorTests.m */; };
+		96F30E801B016FD4002E792C /* ConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F30E7F1B016FD4002E792C /* ConnectViewController.m */; };
+		96F30E851B017113002E792C /* ImagesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96F30E841B017113002E792C /* ImagesCollectionViewController.m */; };
+		E2E1979EA419652DA9FF86D2 /* libPods-Art Curator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A4A7E187A21A6B28B4BC6FA /* libPods-Art Curator.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96F30E6D1B016C06002E792C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96F30E4B1B016C06002E792C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96F30E521B016C06002E792C;
+			remoteInfo = "Art Curator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11DB778D95685B9357D01803 /* Pods-Art Curator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Art Curator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Art Curator/Pods-Art Curator.release.xcconfig"; sourceTree = "<group>"; };
+		2A4A7E187A21A6B28B4BC6FA /* libPods-Art Curator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Art Curator.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9608E4FD1B0577F700E3F54B /* ImagesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesManager.h; sourceTree = "<group>"; };
+		9608E4FE1B0577F700E3F54B /* ImagesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesManager.m; sourceTree = "<group>"; };
+		9616B1511B0D0631000C640B /* SettingsSearchFolderTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsSearchFolderTableViewController.h; sourceTree = "<group>"; };
+		9616B1521B0D0631000C640B /* SettingsSearchFolderTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsSearchFolderTableViewController.m; sourceTree = "<group>"; };
+		9654FDAD1B17E25A00DA4D9C /* astronaut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = astronaut.png; path = Images/astronaut.png; sourceTree = "<group>"; };
+		9654FDAF1B17E26700DA4D9C /* cyborg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cyborg.png; path = Images/cyborg.png; sourceTree = "<group>"; };
+		9654FDB01B17E26700DA4D9C /* robot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = robot.png; path = Images/robot.png; sourceTree = "<group>"; };
+		9698FFF61B0BFF7700118346 /* SettingsResponseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsResponseTableViewController.h; sourceTree = "<group>"; };
+		9698FFF71B0BFF7700118346 /* SettingsResponseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsResponseTableViewController.m; sourceTree = "<group>"; };
+		96B1343A1B02929C00B1602A /* Office365Client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Office365Client.h; sourceTree = "<group>"; };
+		96B1343B1B02929C00B1602A /* Office365Client.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Office365Client.m; sourceTree = "<group>"; };
+		96D93B751B0662950061906D /* MessageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageContainer.h; sourceTree = "<group>"; };
+		96D93B761B0662950061906D /* MessageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageContainer.m; sourceTree = "<group>"; };
+		96DF4F3B1B0A5F42000345FE /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		96DF4F3C1B0A5F42000345FE /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		96DF4F3E1B0ABBDA000345FE /* SettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsManager.h; sourceTree = "<group>"; };
+		96DF4F3F1B0ABBDA000345FE /* SettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsManager.m; sourceTree = "<group>"; };
+		96DF4F441B0AC408000345FE /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		96DF4F451B0AC408000345FE /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		96F30E531B016C06002E792C /* Art Curator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Art Curator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F30E571B016C06002E792C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F30E581B016C06002E792C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		96F30E5A1B016C06002E792C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		96F30E5B1B016C06002E792C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		96F30E611B016C06002E792C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		96F30E631B016C06002E792C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		96F30E661B016C06002E792C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		96F30E6C1B016C06002E792C /* Art CuratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Art CuratorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96F30E711B016C06002E792C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96F30E721B016C06002E792C /* Art_CuratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Art_CuratorTests.m; sourceTree = "<group>"; };
+		96F30E7E1B016FD4002E792C /* ConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectViewController.h; sourceTree = "<group>"; };
+		96F30E7F1B016FD4002E792C /* ConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConnectViewController.m; sourceTree = "<group>"; };
+		96F30E831B017113002E792C /* ImagesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagesCollectionViewController.h; sourceTree = "<group>"; };
+		96F30E841B017113002E792C /* ImagesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagesCollectionViewController.m; sourceTree = "<group>"; };
+		FDF7DD41D8737118546B021A /* Pods-Art Curator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Art Curator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Art Curator/Pods-Art Curator.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96F30E501B016C06002E792C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2E1979EA419652DA9FF86D2 /* libPods-Art Curator.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F30E691B016C06002E792C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		37F657E28137DF7DB37CDD93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDF7DD41D8737118546B021A /* Pods-Art Curator.debug.xcconfig */,
+				11DB778D95685B9357D01803 /* Pods-Art Curator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53C84A6062BF6E2E79E9D402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A4A7E187A21A6B28B4BC6FA /* libPods-Art Curator.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9654FDAC1B17E25000DA4D9C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9654FDAF1B17E26700DA4D9C /* cyborg.png */,
+				9654FDB01B17E26700DA4D9C /* robot.png */,
+				9654FDAD1B17E25A00DA4D9C /* astronaut.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		96B134391B0291D700B1602A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				96B1343A1B02929C00B1602A /* Office365Client.h */,
+				96B1343B1B02929C00B1602A /* Office365Client.m */,
+				9608E4FD1B0577F700E3F54B /* ImagesManager.h */,
+				9608E4FE1B0577F700E3F54B /* ImagesManager.m */,
+				96D93B751B0662950061906D /* MessageContainer.h */,
+				96D93B761B0662950061906D /* MessageContainer.m */,
+				96DF4F3E1B0ABBDA000345FE /* SettingsManager.h */,
+				96DF4F3F1B0ABBDA000345FE /* SettingsManager.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		96F30E4A1B016C06002E792C = {
+			isa = PBXGroup;
+			children = (
+				96F30E551B016C06002E792C /* Art Curator */,
+				96F30E6F1B016C06002E792C /* Art CuratorTests */,
+				96F30E541B016C06002E792C /* Products */,
+				37F657E28137DF7DB37CDD93 /* Pods */,
+				53C84A6062BF6E2E79E9D402 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		96F30E541B016C06002E792C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96F30E531B016C06002E792C /* Art Curator.app */,
+				96F30E6C1B016C06002E792C /* Art CuratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		96F30E551B016C06002E792C /* Art Curator */ = {
+			isa = PBXGroup;
+			children = (
+				9654FDAC1B17E25000DA4D9C /* Images */,
+				96B134391B0291D700B1602A /* Models */,
+				96F30E7D1B016F1E002E792C /* Controllers */,
+				96F30E7C1B016F09002E792C /* Views */,
+				96F30E561B016C06002E792C /* Supporting Files */,
+			);
+			path = "Art Curator";
+			sourceTree = "<group>";
+		};
+		96F30E561B016C06002E792C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96F30E631B016C06002E792C /* Images.xcassets */,
+				96F30E571B016C06002E792C /* Info.plist */,
+				96F30E581B016C06002E792C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96F30E6F1B016C06002E792C /* Art CuratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				96F30E721B016C06002E792C /* Art_CuratorTests.m */,
+				96F30E701B016C06002E792C /* Supporting Files */,
+			);
+			path = "Art CuratorTests";
+			sourceTree = "<group>";
+		};
+		96F30E701B016C06002E792C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96F30E711B016C06002E792C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96F30E7C1B016F09002E792C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				96F30E651B016C06002E792C /* LaunchScreen.xib */,
+				96F30E601B016C06002E792C /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		96F30E7D1B016F1E002E792C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				96F30E5A1B016C06002E792C /* AppDelegate.h */,
+				96F30E5B1B016C06002E792C /* AppDelegate.m */,
+				96F30E7E1B016FD4002E792C /* ConnectViewController.h */,
+				96F30E7F1B016FD4002E792C /* ConnectViewController.m */,
+				96F30E831B017113002E792C /* ImagesCollectionViewController.h */,
+				96F30E841B017113002E792C /* ImagesCollectionViewController.m */,
+				96DF4F3B1B0A5F42000345FE /* DetailViewController.h */,
+				96DF4F3C1B0A5F42000345FE /* DetailViewController.m */,
+				96DF4F441B0AC408000345FE /* SettingsTableViewController.h */,
+				96DF4F451B0AC408000345FE /* SettingsTableViewController.m */,
+				9698FFF61B0BFF7700118346 /* SettingsResponseTableViewController.h */,
+				9698FFF71B0BFF7700118346 /* SettingsResponseTableViewController.m */,
+				9616B1511B0D0631000C640B /* SettingsSearchFolderTableViewController.h */,
+				9616B1521B0D0631000C640B /* SettingsSearchFolderTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		96F30E521B016C06002E792C /* Art Curator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F30E761B016C06002E792C /* Build configuration list for PBXNativeTarget "Art Curator" */;
+			buildPhases = (
+				4B315B8464D67069B158ABE5 /* Check Pods Manifest.lock */,
+				96F30E4F1B016C06002E792C /* Sources */,
+				96F30E501B016C06002E792C /* Frameworks */,
+				96F30E511B016C06002E792C /* Resources */,
+				956D36FA87586AB59ABB1F31 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Art Curator";
+			productName = "Art Curator";
+			productReference = 96F30E531B016C06002E792C /* Art Curator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		96F30E6B1B016C06002E792C /* Art CuratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96F30E791B016C06002E792C /* Build configuration list for PBXNativeTarget "Art CuratorTests" */;
+			buildPhases = (
+				96F30E681B016C06002E792C /* Sources */,
+				96F30E691B016C06002E792C /* Frameworks */,
+				96F30E6A1B016C06002E792C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96F30E6E1B016C06002E792C /* PBXTargetDependency */,
+			);
+			name = "Art CuratorTests";
+			productName = "Art CuratorTests";
+			productReference = 96F30E6C1B016C06002E792C /* Art CuratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96F30E4B1B016C06002E792C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Microsoft;
+				TargetAttributes = {
+					96F30E521B016C06002E792C = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = A856C7QQ48;
+					};
+					96F30E6B1B016C06002E792C = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 96F30E521B016C06002E792C;
+					};
+				};
+			};
+			buildConfigurationList = 96F30E4E1B016C06002E792C /* Build configuration list for PBXProject "Art Curator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 96F30E4A1B016C06002E792C;
+			productRefGroup = 96F30E541B016C06002E792C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96F30E521B016C06002E792C /* Art Curator */,
+				96F30E6B1B016C06002E792C /* Art CuratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96F30E511B016C06002E792C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9654FDB21B17E26700DA4D9C /* robot.png in Resources */,
+				96F30E621B016C06002E792C /* Main.storyboard in Resources */,
+				9654FDAE1B17E25A00DA4D9C /* astronaut.png in Resources */,
+				9654FDB11B17E26700DA4D9C /* cyborg.png in Resources */,
+				96F30E671B016C06002E792C /* LaunchScreen.xib in Resources */,
+				96F30E641B016C06002E792C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F30E6A1B016C06002E792C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B315B8464D67069B158ABE5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		956D36FA87586AB59ABB1F31 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Art Curator/Pods-Art Curator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96F30E4F1B016C06002E792C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F30E851B017113002E792C /* ImagesCollectionViewController.m in Sources */,
+				96F30E5C1B016C06002E792C /* AppDelegate.m in Sources */,
+				96DF4F461B0AC408000345FE /* SettingsTableViewController.m in Sources */,
+				96DF4F401B0ABBDA000345FE /* SettingsManager.m in Sources */,
+				9698FFF81B0BFF7700118346 /* SettingsResponseTableViewController.m in Sources */,
+				96F30E801B016FD4002E792C /* ConnectViewController.m in Sources */,
+				96DF4F3D1B0A5F42000345FE /* DetailViewController.m in Sources */,
+				9608E4FF1B0577F700E3F54B /* ImagesManager.m in Sources */,
+				96B1343C1B02929C00B1602A /* Office365Client.m in Sources */,
+				96F30E591B016C06002E792C /* main.m in Sources */,
+				9616B1531B0D0631000C640B /* SettingsSearchFolderTableViewController.m in Sources */,
+				96D93B771B0662950061906D /* MessageContainer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96F30E681B016C06002E792C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F30E731B016C06002E792C /* Art_CuratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		96F30E6E1B016C06002E792C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96F30E521B016C06002E792C /* Art Curator */;
+			targetProxy = 96F30E6D1B016C06002E792C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96F30E601B016C06002E792C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F30E611B016C06002E792C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		96F30E651B016C06002E792C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96F30E661B016C06002E792C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		96F30E741B016C06002E792C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		96F30E751B016C06002E792C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		96F30E771B016C06002E792C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF7DD41D8737118546B021A /* Pods-Art Curator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Art Curator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		96F30E781B016C06002E792C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DB778D95685B9357D01803 /* Pods-Art Curator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Art Curator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96F30E7A1B016C06002E792C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Art CuratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Art Curator.app/Art Curator";
+			};
+			name = Debug;
+		};
+		96F30E7B1B016C06002E792C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Art CuratorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Art Curator.app/Art Curator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96F30E4E1B016C06002E792C /* Build configuration list for PBXProject "Art Curator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F30E741B016C06002E792C /* Debug */,
+				96F30E751B016C06002E792C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F30E761B016C06002E792C /* Build configuration list for PBXNativeTarget "Art Curator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F30E771B016C06002E792C /* Debug */,
+				96F30E781B016C06002E792C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96F30E791B016C06002E792C /* Build configuration list for PBXNativeTarget "Art CuratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96F30E7A1B016C06002E792C /* Debug */,
+				96F30E7B1B016C06002E792C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96F30E4B1B016C06002E792C /* Project object */;
+}
