@@ -72,7 +72,7 @@ Limitations
 
 Questions and comments
 ==
-* If you have any trouble running this sample, please [log and issue]()
+* If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/O365-iOS-ArtCurator/issues)
 * For general questions about the Office 365 APIs, post to [StackOverflow](http://stackoverflow.com/). Make sure that your questions or comments are tagged with [Office365] and [outlook-restapi]
 
 <a name="AdditionalResources"></a>Additional resources
