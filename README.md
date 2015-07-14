@@ -1,5 +1,6 @@
 # O365-iOS-Art-Curator
-This sample demonstrates how to use the Outlook Mail API to get emails and attachments from Office 365. It's built for iOS, [Android](https://github.com/OfficeDev/O365-Android-ArtCurator), [Web (Angular web app)](https://github.com/OfficeDev/O365-Angular-ArtCurator), and [Windows Phone](https://github.com/OfficeDev/O365-WinPhone-ArtCurator). 
+This sample demonstrates how to use the Outlook Mail API to get emails and attachments from Office 365. It's built for iOS, [Android](https://github.com/OfficeDev/O365-Android-ArtCurator), [Web (Angular web app)](https://github.com/OfficeDev/O365-Angular-ArtCurator), and [Windows Phone](https://github.com/OfficeDev/O365-WinPhone-ArtCurator). Check out our [article on Medium](https://medium.com/@iambmelt/14296d0a25be).
+<br />
 <br />
 <br />
 The Art Curator sample provides a different way to view your inbox. Imagine you own a company that sells artistic t-shirts. As the owner of the company, you receive lots of emails from artists with designs they want you to buy. Currently, you use your email client to open each message and attachment. Instead, you can use the Art Curator sample to give you an attachment-first view of your inbox so that you can pick and choose designs you like. 
