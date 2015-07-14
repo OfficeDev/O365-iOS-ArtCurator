@@ -13,7 +13,7 @@
 
 // *********************************************************
 //
-// O365-iOS-Art Curator, https://TBD
+// O365-iOS-ArtCurator, https://github.com/OfficeDev/O365-iOS-ArtCurator
 //
 // Copyright (c) Microsoft Corporation
 // All rights reserved.
