@@ -4,7 +4,7 @@ This sample demonstrates how to use the Outlook Mail API to get emails and attac
 <br />
 The Art Curator sample provides a different way to view your inbox. Imagine you own a company that sells artistic t-shirts. As the owner of the company, you receive lots of emails from artists with designs they want you to buy. Currently, you use your email client to open each message and attachment. Instead, you can use the Art Curator sample to give you an attachment-first view of your inbox so that you can pick and choose designs you like. 
 
-[![Office 365 iOS Art Curator](/readme-images/artcurator_ios.png.png)](https://youtu.be/4LOvkweDfhY "Click to see the sample in action")
+[![Office 365 iOS Art Curator](/readme-images/artcurator_ios.png)](https://youtu.be/4LOvkweDfhY "Click to see the sample in action")
 
 This sample demonstrates the following operations from the Outlook Services Mail API: 
 
