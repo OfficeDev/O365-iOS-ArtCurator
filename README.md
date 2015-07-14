@@ -73,7 +73,6 @@ Limitations
 Questions and comments
 ==
 * If you have any trouble running this sample, please [log and issue]()
-* For all other questions and comments, send an email to [docthis@microsoft.com](mailto:docthis@microsoft.com)
 * For general questions about the Office 365 APIs, post to [StackOverflow](http://stackoverflow.com/). Make sure that your questions or comments are tagged with [Office365] and [outlook-restapi]
 
 <a name="AdditionalResources"></a>Additional resources
