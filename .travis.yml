@@ -1,0 +1,10 @@
+language: objective-c
+
+before_install:
+  - gem install cocoapods
+  - brew update
+  - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
+
+xcode_workspace: Art Curator.xcworkspace
+xcode_scheme: Art Curator
+xcode_sdk: iphonesimulator
