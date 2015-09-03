@@ -8,3 +8,11 @@ before_install:
 xcode_workspace: Art Curator.xcworkspace
 xcode_scheme: Art Curator
 xcode_sdk: iphonesimulator
+notifications:
+  slack:
+    secure: JHNyEpcTatN9tQOC1BGGU7Tc/yGAt0UI9AnFFevWnDaK2+lpT0cRmpf5XDVlGocLSjMTbS5BE+CdGqScnOWWaRbAaV7rc+e7Rpgu7nQNsZwmjRjO2vDvl2tIvFZ3qhH5WPhh969CcAZxNUnBwW5/7UnaoJPGDIYF3iH96FVP/Y3CwSw874tLGczUipU/jeZMvzJw7VJkkJAPd9uIppihdZNGRLqqGhHAN4tep8E8B+w2nO7kZxpelGotlTcOtaxRrBem2tSMXKtTNwiHdsb4uEQG/fBnESscKp2ParzbDhTYFA47CtKJXdMJyph1bCTB5b25UOrdL+6aqziF0lpK1P+kiaUdpU3kf1PLAyXC2IxNQaITJrDOzeEPu23WXNiEID8632D7Oe0L5ZzlAHQBDYRt2qdQlpQsH7gIROcdSN48rKwOcRbr8pD8/wQhejeZXDdmOmNiDrB+MwjUg8J1lI5Ie3CBIh8I7FclO8s4IXx1aijZox1oM9ssMrv4rtcWO6n393Q/Dx69Tra8MttK8tPauuVAVmxuuQUd/Wibm0SQ+ewGlHzvtnBouH7NFq1eMBcA5tdZh9achho+o2kclKtJ/teKM5VOiwYyrSYBqopA4mULt9FEZd1+k4LIPGkaR0jvx7cco+P3s0YUaQmOuq74F+D58N08fspF1Fqc+2A=
+  email:
+    recipients:
+    - jak@microsoft.com
+    on_success: never
+    on_failure: always
