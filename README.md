@@ -17,6 +17,7 @@ This sample demonstrates the following operations from the Outlook Services Mail
 * [Update messages](https://msdn.microsoft.com/office/office365/APi/mail-rest-operations#Updatemessages)
 * [Create and send messages](https://msdn.microsoft.com/office/office365/APi/mail-rest-operations#Sendmessages) (with and without an attachment) 
 
+
 Prerequisites
 ==
 * [Xcode](https://developer.apple.com/xcode/downloads/) from Apple
@@ -77,7 +78,17 @@ Questions and comments
 * If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/O365-iOS-ArtCurator/issues)
 * For general questions about the Office 365 APIs, post to [Stack Overflow](http://stackoverflow.com/). Make sure that your questions or comments are tagged with [Office365] and [outlook-restapi]
 
-<a name="AdditionalResources"></a>Additional resources
+Troubleshooting
+==
+With the Xcode 7.0 update, App Transport Security is enabled for simulators and devices running iOS 9. See [App Transport Security Technote](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/).
+
+For this sample we have created a temporary exception for the following domain in the plist:
+
+- outlook.office365.com
+
+If these exceptions are not included, all calls into the Office 365 API will fail in this app when deployed to an iOS 9 simulator in Xcode.
+
+Additional resources
 ==
 * [Get started with Office 365 APIs in apps](http://aka.ms/get-started-with-js)
 * [Office 365 APIs platform overview](http://msdn.microsoft.com/office/office365/howto/platform-development-overview)
