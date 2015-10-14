@@ -1,4 +1,4 @@
-# O365-iOS-Art-Curator
+# O365 iOS Art Curator
 [![Build Status](https://travis-ci.org/OfficeDev/O365-iOS-ArtCurator.svg?branch=master)](https://travis-ci.org/OfficeDev/O365-iOS-ArtCurator)
 
 This sample demonstrates how to use the Outlook Mail API to get emails and attachments from Office 365. It's built for iOS, [Android](https://github.com/OfficeDev/O365-Android-ArtCurator), [Web (Angular web app)](https://github.com/OfficeDev/O365-Angular-ArtCurator), and [Windows Phone](https://github.com/OfficeDev/O365-WinPhone-ArtCurator). Check out our [article on Medium](https://medium.com/@iambmelt/14296d0a25be).
