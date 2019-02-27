@@ -1,3 +1,14 @@
+---
+topic: sample
+products:
+- Outlook
+- Office 365
+languages:
+- Objective-C
+extensions:
+  contentType: samples
+  createdDate: 6/26/2015 3:03:24 PM
+---
 # O365 iOS Art Curator
 [![Build Status](https://travis-ci.org/OfficeDev/O365-iOS-ArtCurator.svg?branch=master)](https://travis-ci.org/OfficeDev/O365-iOS-ArtCurator)
 
