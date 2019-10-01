@@ -31,8 +31,8 @@ This sample demonstrates the following operations from the Outlook Services Mail
 * [Create and send messages](https://msdn.microsoft.com/office/office365/APi/mail-rest-operations#Sendmessages) (with and without an attachment) 
 
 
-Prerequisites
-==
+## Prerequisites
+
 * [Xcode](https://developer.apple.com/xcode/downloads/) from Apple
 * Installation of [CocoaPods](https://guides.cocoapods.org/using/using-cocoapods.html)  as a dependency manager.
 * An Office 365 account. You can sign up for an [Office 365 Developer subscription](https://msdn.microsoft.com/en-us/library/office/fp179924.aspx) that includes the resources to start building Office 365 apps.
@@ -43,8 +43,8 @@ You will also need to ensure your Azure subscription is bound to your Office 365
 
 In this post, the Adding a new directory section will explain how to do this. You can also read [Set up Azure Active Directory access for your Developer Site](https://msdn.microsoft.com/office/office365/howto/setup-development-environment#bk_CreateAzureSubscription) for more information.
 
-Setting up Xcode project
-==
+## Setting up Xcode project
+
 * Clone this repository
 * Use CocoaPods to import the ADAL iOS, O365 iOS SDK, and SDWebImage
         
@@ -59,8 +59,7 @@ Setting up Xcode project
         
    For more information, see **Using CocoaPods** in [Additional Resources](#AdditionalResources)
     
-First start
-==
+## First start
 
 This app contains pre-registered application information on Azure with **Send mail as a user** and **Read and write user mail** permissions.
 
@@ -79,20 +78,20 @@ The application *must* have the **Send mail as a user** and **Read and write use
 
 For more information, see [iOS-O365-Connect sample]()
 
-Limitations
-==
+## Limitations
+
 * File support beyond ```.png``` and ```.jpg```
 * Handling a single email with multiple attachments
 * Paging (getting more than 50 emails)
 * Handling folder name uniqueness
 
-Questions and comments
-==
+## Questions and comments
+
 * If you have any trouble running this sample, please [log an issue](https://github.com/OfficeDev/O365-iOS-ArtCurator/issues)
 * For general questions about the Office 365 APIs, post to [Stack Overflow](http://stackoverflow.com/). Make sure that your questions or comments are tagged with [Office365] and [outlook-restapi]
 
-Troubleshooting
-==
+## Troubleshooting
+
 With the Xcode 7.0 update, App Transport Security is enabled for simulators and devices running iOS 9. See [App Transport Security Technote](https://developer.apple.com/library/prerelease/ios/technotes/App-Transport-Security-Technote/).
 
 For this sample we have created a temporary exception for the following domain in the plist:
@@ -101,8 +100,8 @@ For this sample we have created a temporary exception for the following domain i
 
 If these exceptions are not included, all calls into the Office 365 API will fail in this app when deployed to an iOS 9 simulator in Xcode.
 
-Additional resources
-==
+## Additional resources
+
 * [Get started with Office 365 APIs in apps](http://aka.ms/get-started-with-js)
 * [Office 365 APIs platform overview](http://msdn.microsoft.com/office/office365/howto/platform-development-overview)
 * [Office Dev Center](http://dev.office.com/)
@@ -111,8 +110,8 @@ Additional resources
 * [Art Curator for Windows phone](https://github.com/OfficeDev/O365-WinPhone-ArtCurator)
 * [Art Curator for Web (Angular web app)](https://github.com/OfficeDev/O365-Angular-ArtCurator)
 
-Copyright
-==
+## Copyright
+
 Copyright (c) 2015 Microsoft. All rights reserved.
 
 
